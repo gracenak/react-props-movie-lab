@@ -29,6 +29,7 @@ const posterMap = {
 
 export default class MovieCard extends Component {
   render() {
+
     console.log(this.props)
     return ([
       <div className="movie-card">
